@@ -6,16 +6,16 @@
     <title>Email markup</title>
     <style>
             @media screen and (min-width:320px) {
-            table[class="container"] {width: 375px}
+            table[class="container"] {width: 100%}
             td[class="content"] {padding: 16px 20px}
         }
         @media screen and (min-width:600px) {
-            table[class="container"] {max-width: 600px}
+            table[class="container"] {max-width: 100%}
             td[class="content"] {padding: 32px 40px}
         }
     </style>
     </head>
-<body style="margin:0; padding:0; background-color:#ffffff;">
+<body style="margin:0; padding:0; background-color:#ffffff;" >
     <table class="container" cellpadding="0" cellspacing="0">
         <tr>
             <td>
@@ -25,12 +25,41 @@
                             <img width="100px" src="./img/ОКЗА.jpg" alt="Logo">
                         </td>
                     </tr>
-                    <table class="container" background="./img/bg@1x.png">
+                    <table class="container" background="./img/bg@1x.png" width="100%" cellspacing="32">
                         <tr>
-                            <td class="content">
-                                <h2>Sveta111, win! <br>lottery gifts</h2>
-                                <p>We have a whole "Universe of Prizes" and we are ready to share great gifts with you! All you have to do to get them is
-                                win an exciting lottery that runs every day.</p>
+                            <td style="border-radius: 17px;
+                            padding: 21px 20px 50px 20px;
+                            max-width: 520px;
+                            background-color: #584df3;
+                            background-image: linear-gradient(46deg, #00c6fb 0%, #005bea 100%);
+                            color: #ffffff;">
+                                <table>
+                                    <tr>
+                                        <td style="padding: 0 12px 0 0;">
+                                <h2 style="font-weight: 700; font-size: 18px; line-height: 111%; margin: 0;">Sveta111, win! <br>lottery gifts</h2>
+                                <p style="margin:0; padding: 12px 0 0 0; font-weight: 400; font-size: 14px;">We have a whole "Universe of Prizes" and we are ready to share great gifts with you! All you have to
+                                    do to get them
+                                    is
+                                    win an exciting lottery that runs every day.</p>
+                                        <table>
+                                            <tr>
+                                                <td style="padding: 12px 0 0 0;">
+                                    <button type="button" style="border-radius: 100px; 
+                                    border: transparent;
+                                    padding: 8px 28px;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    color: #ffffff;
+                                    background-image: linear-gradient(90deg, #13171b 0%, #485563 100%);">Play</button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        </td>
+                                        <td>
+                                            <img src="./img/monik.png"  alt="Desktop" width="80">
+                                        </td>
+                                    </tr>
+                                </table>                           
                             </td>
                         </tr>
                     </table>
