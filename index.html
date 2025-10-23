@@ -1,69 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email markup</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Email</title>
     <style>
-            @media screen and (min-width:320px) {
-            table[class="container"] {width: 100%}
-            td[class="content"] {padding: 16px 20px}
+        @media only screen and (min-width:320px) and (max-width:420px) {
+            table[class="main"] {
+                width: 100% !important;
+            }
+            td[class="pad"] {
+                padding: 12px 10px !important;
+            }
         }
-        @media screen and (min-width:600px) {
-            table[class="container"] {max-width: 100%}
-            td[class="content"] {padding: 32px 40px}
+        @media only screen and (min-width:421px) and (max-width:600px) {
+            table[class="main"] {
+                width: 100% !important;
+            }
+
+            td[class="pad"] {
+                padding: 20px 24px;
+            }
         }
     </style>
-    </head>
-<body style="margin:0; padding:0; background-color:#ffffff;" >
-    <table class="container" cellpadding="0" cellspacing="0">
+</head>
+<body style="margin:0;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" background="./img/bg@1x.png"
+        style="background-repeat:no-repeat; background-position:center">
         <tr>
-            <td>
-                <table class="container" cellpadding="30" cellspacing="0">
+            <td align="center" style="padding:0;">
+                <table class="main" width="600" cellpadding="0" cellspacing="0" border="0"
+                    style="background-image:none; border-collapse:collapse;">
                     <tr>
-                        <td style="text-align: center;" >
-                            <img width="100px" src="./img/ОКЗА.jpg" alt="Logo">
+                        <td align="center" style="padding:20px; background-position:center"
+                            background="./img/WhiteBg.png">
+                            <h2 style="margin:0; font-weight:700; font-family: Arial, Helvetica, sans-serif; font-size:32px;">LOGO HERE</h2>
                         </td>
                     </tr>
-                    <table class="container" background="./img/bg@1x.png" width="100%" cellspacing="32">
-                        <tr>
-                            <td style="border-radius: 17px;
-                            padding: 21px 20px 50px 20px;
-                            max-width: 520px;
-                            background-color: #584df3;
-                            background-image: linear-gradient(46deg, #00c6fb 0%, #005bea 100%);
-                            color: #ffffff;">
-                                <table>
-                                    <tr>
-                                        <td style="padding: 0 12px 0 0;">
-                                <h2 style="font-weight: 700; font-size: 18px; line-height: 111%; margin: 0;">Sveta111, win! <br>lottery gifts</h2>
-                                <p style="margin:0; padding: 12px 0 0 0; font-weight: 400; font-size: 14px;">We have a whole "Universe of Prizes" and we are ready to share great gifts with you! All you have to
-                                    do to get them
-                                    is
-                                    win an exciting lottery that runs every day.</p>
-                                        <table>
+                    <tr>
+                        <td style="padding:32px 40px 20px 40px">
+                            <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+                                style="background-image:linear-gradient(46deg,#00c6fb 0%,#005bea 100%); border-radius:17px; color:#fff;">
+                                <tr>
+                                    <td class="pad" style="padding:21px 10px 55px 20px; max-width:260px;">
+                                        <h2 style="margin:0; font-weight:700; font-size:18px;">Sveta111, win!<br>lottery
+                                            gifts</h2>
+                                        <p
+                                            style="font-weight:400; font-size:16px; max-width:260px; margin:0; font-family:Arial, Helvetica, sans-serif; padding:12px 0 12px 0; line-height:125%;">
+                                            We have a whole "Universe of Prizes" and we are ready to share great gifts
+                                            with you! All you have to do to get them is win an exciting lottery that
+                                            runs every day.</p>
+                                        <table border="0" cellpadding="0" cellspacing="0" align="left"
+                                            style="margin-top:4px;">
                                             <tr>
-                                                <td style="padding: 12px 0 0 0;">
-                                    <button type="button" style="border-radius: 100px; 
-                                    border: transparent;
-                                    padding: 8px 28px;
-                                    font-weight: 700;
-                                    font-size: 16px;
-                                    color: #ffffff;
-                                    background-image: linear-gradient(90deg, #13171b 0%, #485563 100%);">Play</button>
+                                                <td
+                                                    style="background-image:linear-gradient(90deg,#13171b 0%,#485563 100%); border-radius:100px; padding:8px 56px; text-align:center;">
+                                                    <a href="#"
+                                                        style="display:inline-block; color:#fff; font:700 16px/1 Arial,Helvetica,sans-serif; text-decoration:none;">Play</a>
                                                 </td>
                                             </tr>
                                         </table>
-                                        </td>
-                                        <td>
-                                            <img src="./img/monik.png"  alt="Desktop" width="80">
-                                        </td>
-                                    </tr>
-                                </table>                           
-                            </td>
-                        </tr>
-                    </table>
+                                    </td>
+                                    <td align="right" style="padding:18px 20px 45px 0;">
+                                        <img src="./img/desktop.png" width="94%" alt="Desktop"
+                                            style="display:block; border:0;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0 40px 20px">
+                            <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+                                style="background-image:linear-gradient(46deg,#00c6fb 0%,#005bea 100%); border-radius:17px; color:#fff;">
+                                <tr>
+                                    <td class="pad" style="padding:20px 10px 40px 20px;">
+                                        <h2 style="margin:0; font:700 18px/1.11 Arial,sans-serif;">Become a champion in
+                                            tournaments</h2>
+                                        <p
+                                            style="font-weight:400; font-size:16px; max-width:260px; margin:0; font-family:Arial, Helvetica, sans-serif; padding:12px 0 12px 0; line-height:125%;">
+                                            We have a whole "Universe of Prizes" and we are ready to share great gifts
+                                            with you! All you have to do to get them is win an exciting lottery that
+                                            runs every day.</p>
+                                        <a href="#"
+                                            style="display:block; color:#fff; font-weight:700; font-family:Arial, Helvetica, sans-serif; font-size:16px; text-decoration:none; border-radius:100px; border:transparent; background-image:linear-gradient(90deg,#13171b 0%,#485563 100%); text-align:center; padding:8px 56px; max-width:30px;">Play</a>
+                                    </td>
+                                    <td align="right" style="padding:0 20px 0 0;">
+                                        <img src="./img/tablet_m101.png" width="100%" alt="Tablet"
+                                            style="display:block; border:0;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0 40px 32px">
+                            <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+                                style="background-image:linear-gradient(46deg,#00c6fb 0%,#005bea 100%); border-radius:17px; color:#fff;">
+                                <tr>
+                                    <td class="pad" style="padding:34px 20px 34px 20px;">
+                                        <h2 style="margin:0; font:700 18px/1.11 Arial,sans-serif;">Claim your Bonuses
+                                        </h2>
+                                        <p
+                                            style="font-weight:400; font-size:16px; max-width:260px; margin:0; font-family:Arial, Helvetica, sans-serif; padding:12px 0 12px 0; line-height:125%;">
+                                            Generous gifts are waiting for you in the form of no deposit bonuses and
+                                            free spins in hot slots.</p>
+                                        <a href="#"
+                                            style="display:block; color:#fff; font-weight:700; font-family:Arial, Helvetica, sans-serif; font-size:16px; text-decoration:none; border-radius:100px; border:transparent; background-image:linear-gradient(90deg,#13171b 0%,#485563 100%); text-align:center; padding:8px 56px; max-width:30px;">Take</a>
+                                    </td>
+                                    <td align="right" style="padding:0 20px 34px 0;">
+                                        <img src="./img/Divine.png" width="100%" alt="Tablet"
+                                            style="display:block; border:0;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
                 </table>
+            </td>
+        </tr>
+    </table>
+    <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+        style="background:#ffffff; font-family:Arial, sans-serif;">
+        <tr>
+            <td align="center" style="padding:14px 20px 8px; color:#666666; font-size:14px; line-height:1.4;">
+                If you have questions, please contact us:
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="padding:6px 20px 12px;">
+                <table cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td valign="middle" style="padding:0 8px 0 0;">
+                            <img src="./img/mail_24px.png" width="16" height="16" alt="mail"
+                                style="display:block; border:0;">
+                        </td>
+                        <td valign="middle" style="padding:0 24px 0 0; color:#666666; font-size:14px; line-height:1.4;">
+                            <a href="mailto:support@support.email"
+                                style="color:#666666; text-decoration:none;">support@support.email</a>
+                        </td>
+                        <td valign="middle" style="padding:0 8px 0 0;">
+                            <img src="./img/phone_24px.png" width="16" height="16" alt="phone"
+                                style="display:block; border:0;">
+                        </td>
+                        <td valign="middle" style="color:#666666; font-size:14px; line-height:1.4;">
+                            <a href="tel:1234566789" style="color:#666666; text-decoration:none;">1234566789</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="height:1px; background:#e5e5e5; font-size:0; line-height:0;"></td>
+        </tr>
+        <tr>
+            <td align="center" style="padding:12px 10px 0; color:#777777; font-size:14px; line-height:1.5;">
+                Some games and bonuses may not be available in your country.
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="padding:6px 2px 0; color:#777777; font-size:14px; line-height:1.1;">
+                You take all the credit for the fact that you have registered on our site.<br>
+                For a return link with us, please send a copy to the whole sheet.
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="padding:0 10px 16px; color:#777777; font-size:14px; line-height:1.5;">
+                You can <a href="#" style="color:#1245FF; text-decoration:underline;">subscribe</a>
             </td>
         </tr>
     </table>
